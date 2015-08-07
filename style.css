@@ -1,0 +1,135 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+/* Common styles */
+body {
+  padding: 0;
+  margin: 0;
+  /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: #2E2E2E;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  color: #DF3A01;
+  font-size: 2em;
+  font-family: "Gentium Book Basic", "Lucida Sans Unicode";
+  padding: 1em 0 0.5em 0;
+  text-align: left;
+}
+
+h3 {
+  color: #086A87;
+  font-size: 1.3em;
+  padding: 1em 0;
+}
+
+.footer,
+.sect-class {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.footer,
+.masthead-intro,
+.masthead-heading {
+  text-align: center;
+}
+
+/* Header */
+.masthead {
+  padding: 11em 0;
+  background-image: url('https://download.unsplash.com/photo-1414446483597-8d8f792bfe39');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 3em;
+  color: white;
+  padding-bottom: 15px;
+  /*border: 1px solid green; Development purpose only */
+}
+
+.masthead-heading {
+    margin-top: -0.1em;
+    font-family: "Gentium Book Basic", "Open Sans", "Lucida Sans Unicode";
+    font-size: 6em;
+    color: #FFBF00;
+    text-shadow: 2px 2px 7px #FF8000;
+    /*border: 1px solid red; Development purpose only */
+}
+
+/* Content */
+
+.sect-class p {
+  color: #2E2E2E;
+  font-size: 1em;
+  line-height: 150%;
+  font-family: sans-serif,"Lucida Grande", "Lucida Sans Unicode", Tahoma;
+  text-align: left;
+  padding-bottom: 1em;
+}
+
+/* Footer */
+footer {
+  padding: 2em 26em;
+  color: #fff;
+  background-color: #61380B;
+  font-family: "Gentium Book Basic", "Open Sans", "Lucida Sans Unicode";
+  font-size: 1em;
+}
+
+.footer p {
+  font-size: 1.2em;
+}
+
+.footer ul {
+  list-style: none;
+  text-align: center;
+  padding: 1px 10px;
+  }
+
+.footer li , .footer li a {
+  list-style: none;
+  display: inline-block;
+  padding: 0.5em;
+  color: #FF8000;
+  font-size: 1.2em;
+}
+
+/* Responsive */
