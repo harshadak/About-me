@@ -1,4 +1,5 @@
 /* CSS Reset */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,7 +19,10 @@ time, mark, audio, video {
   font-size: 100%;
 }
 
+
+
 /* Common styles */
+
 body {
   padding: 0;
   margin: 0;
@@ -41,7 +45,7 @@ a:hover {
 h2 {
   color: #DF3A01;
   font-size: 2em;
-  font-family: "Gentium Book Basic", "Lucida Sans Unicode";
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   padding: 1em 0 0.5em 0;
   text-align: left;
 }
@@ -52,7 +56,6 @@ h3 {
   padding: 1em 0;
 }
 
-.footer,
 .sect-class {
     max-width: 38em;
     margin-left: auto;
@@ -66,7 +69,10 @@ h3 {
   text-align: center;
 }
 
+
+
 /* Header */
+
 .masthead {
   padding: 11em 0;
   background-image: url('https://download.unsplash.com/photo-1414446483597-8d8f792bfe39');
@@ -78,7 +84,7 @@ h3 {
 .masthead-intro {
   margin-bottom: 0.1em;
   /* Typography Declarations */
-  font-family: "Gentium Book Basic", Georgia, serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 3em;
   color: white;
   padding-bottom: 15px;
@@ -87,12 +93,14 @@ h3 {
 
 .masthead-heading {
     margin-top: -0.1em;
-    font-family: "Gentium Book Basic", "Open Sans", "Lucida Sans Unicode";
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 6em;
     color: #FFBF00;
     text-shadow: 2px 2px 7px #FF8000;
     /*border: 1px solid red; Development purpose only */
 }
+
+
 
 /* Content */
 
@@ -100,18 +108,22 @@ h3 {
   color: #2E2E2E;
   font-size: 1em;
   line-height: 150%;
-  font-family: sans-serif,"Lucida Grande", "Lucida Sans Unicode", Tahoma;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   text-align: left;
   padding-bottom: 1em;
 }
 
+
+
 /* Footer */
-footer {
-  padding: 2em 26em;
+
+.footer {
+  padding: 3em 2em;
   color: #fff;
   background-color: #61380B;
-  font-family: "Gentium Book Basic", "Open Sans", "Lucida Sans Unicode";
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1em;
+  margin-top: 2em;
 }
 
 .footer p {
@@ -120,7 +132,6 @@ footer {
 
 .footer ul {
   list-style: none;
-  text-align: center;
   padding: 1px 10px;
   }
 
@@ -129,7 +140,7 @@ footer {
   display: inline-block;
   padding: 0.5em;
   color: #FF8000;
-  font-size: 1.2em;
+  font-size: 1.05em;
 }
 
 /* Responsive */
