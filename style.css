@@ -143,4 +143,59 @@ h3 {
   font-size: 1.05em;
 }
 
+
+
 /* Responsive */
+
+@media only screen and (max-width: 768px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-intro {
+      font-size: 1.75em;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+    .sect-class {
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+    .footer {
+      font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .masthead {
+        padding: 1.5em 0;
+    }
+    .masthead-intro {
+      font-size: 0.9em;
+    }
+    .masthead-heading {
+        font-size: 1.5em;
+    }
+    .sect-class {
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+    }
+    .sect-class h2 {
+      font-size: 1.5em;
+    }
+    .sect-class h3 {
+      font-size: 1em;
+    }
+    .sect-class p {
+      font-size: 0.8em;
+    }
+    .footer {
+      font-size: 0.4em;
+    }
+}
+
+
+
+
+
+
